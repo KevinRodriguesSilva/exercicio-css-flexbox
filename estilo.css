@@ -1,0 +1,78 @@
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+
+    /* duvida pra proxim aula para não esquecer
+    
+    pq esse align-items se o display flex ja coloca o conteudo da div no meio nos eixos x e y?  */
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    display: flex;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+/* duvida pra proxim aula para não esquecer
+    
+    pq esse fit-content no width se o display flex ja coloca o conteudo da div no meio nos eixos x e y?  */
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    
+}
+
+.container2 {
+    justify-content: end;
+}
+
+.container3 {
+    justify-content: center;
+}
+
+.container4 {
+    justify-content: space-between;
+}
+.container5 {
+    justify-content: space-around;
+}
+.container6 {
+    justify-content: space-evenly;
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio{
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
